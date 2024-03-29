@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Kdam+Thmor+Pro&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Playfair+Display&display=swap');
+.banner3{
+    max-width: 1240px;
+    width: 100%;
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+   padding-block: 50px;
+}
+
+
+
+.banner3-left h3{
+    font-size: 20px;
+    font-family: "Cormorant Garamond", serif;
+font-weight: 200;
+padding-block: 10px;
+}
+
+.banner3-left h1{
+    text-transform: uppercase;
+    padding-block: 40px;
+    font-size: 2rem;
+    font-family: "Cormorant Garamond", serif;
+  font-weight: 300;
+  font-style: normal;
+
+
+}
+
+.banner3-left h1 span{
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.banner3-left button{
+    background-color: white;
+    border: none;
+    font-size: 20px;
+    padding-block: 10px;
+    padding-inline: 20px;
+    font-family: "Cormorant Garamond", serif;
+    color: #030307;
+    font-weight: 900;
+}
+
+.banner3-left button:hover{
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.banner3-right img{
+    /* width: 100%; */
+    object-fit: contain;
+    /* border: 1px solid gray; */
+   border-radius: 20px;
+   
+}
+
+@media only screen and (max-width: 600px) {
+    .banner3{
+        flex-direction: column;
+   padding-block: 10px;
+   padding-inline: 20px;
+
+    }
+    .banner3-left h1{
+        font-size: 1.3rem;
+        padding-block: 25px;
+    }
+    .banner3-left h1 span{
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    .banner3-right img{
+        width: 100%;
+    }
+}

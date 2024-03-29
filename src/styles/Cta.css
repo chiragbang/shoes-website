@@ -1,0 +1,15 @@
+.cta-container{
+    /* max-width: 1240px; */
+    width: 100%;
+   display: grid;
+   grid-template-columns: auto auto;
+    /* margin-inline: auto; */
+}
+
+.cta-container .newsletter{
+    background-color: aqua;
+}
+
+.cta-container .follow{
+    background-color: brown;
+}
