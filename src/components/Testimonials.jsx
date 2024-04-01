@@ -68,8 +68,8 @@ export default function App() {
         className="mySwiper"
       >
         <SwiperSlide className='testimonial-swiper'><Testimonial1/></SwiperSlide>
-        <SwiperSlide><Testimonial2/></SwiperSlide>
-        <SwiperSlide><Testimonials3/></SwiperSlide>
+        <SwiperSlide className='testimonial-swiper'><Testimonial2/></SwiperSlide>
+        <SwiperSlide className='testimonial-swiper'><Testimonials3/></SwiperSlide>
        
       </Swiper>
     </>

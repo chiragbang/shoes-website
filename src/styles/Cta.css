@@ -1,15 +1,18 @@
-.cta-container{
-    /* max-width: 1240px; */
+.cta {
+    max-width: 1540px;
     width: 100%;
-   display: grid;
-   grid-template-columns: auto auto;
-    /* margin-inline: auto; */
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
 }
 
-.cta-container .newsletter{
-    background-color: aqua;
+.cta-left {
+    background-color: #d3d3d3;
+    padding-inline: 70px;
+    
 }
 
-.cta-container .follow{
-    background-color: brown;
+.cta-right {
+    background-color: #bebebe;
+    padding: 20px;
+    
 }

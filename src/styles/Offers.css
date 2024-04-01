@@ -28,6 +28,7 @@
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
     grid-gap: 10px;
     padding: 10px;
+    padding-block-start: 50px;
     /* border: 1px solid black; */
   }
   

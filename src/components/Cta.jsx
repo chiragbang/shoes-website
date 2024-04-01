@@ -5,13 +5,16 @@ import { IoMailOutline } from "react-icons/io5";
 
 const Cta = () => {
   return (
-    <div className='cta-container'>
-      <div className='newsletter'>
-      
-      
+    <div className='cta'>
+      <div className='cta-left'>
+       <hr/>
+       <h2>Newsletter</h2>
       </div>
-      <div className='follow'>Follow Us</div>
-    </div>
+      <div className='cta-right'>
+        
+        
+      </div>
+      </div>
   )
 }
 

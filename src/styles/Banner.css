@@ -1,16 +1,17 @@
 
   html,
   body {
-    position: relative;
+    /* position: relative; */
     height: 100%;
   }
 
-  .swiper {
+  .bannerSwiper {
     width: 100%;
     height: 60%;
     background: #ADA996;
     background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
     background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); 
+    position: relative;
   }
   
 

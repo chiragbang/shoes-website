@@ -1,4 +1,4 @@
-  .swiper {
+  .blogSwiper {
     max-width: 1240px;
     margin-inline: auto;
     width: 100%;
@@ -6,15 +6,20 @@
    
   }
   
-  .swiper-slide {
+  .blog-swiper-slide {
     text-align: center;
     font-size: 18px;
     height: calc((100% - 30px) / 2) !important;
-  
-    /* Center slide text vertically */
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    /* background-color: aqua; */
   }
   
+  .blog-div-title{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    padding-block-start: 50px;
+  }

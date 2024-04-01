@@ -9,6 +9,7 @@
     align-items: center;
     justify-content: space-between;
     padding-inline: 50px;
+    position: relative;
 }
 
 .banner1-left h1{
